@@ -28,4 +28,5 @@ require (
 	gopkg.in/yaml.v2 v2.2.4 // indirect
 )
 
+// 编译出错需要替换grpc包的版本
 replace google.golang.org/grpc => google.golang.org/grpc v1.26.0
